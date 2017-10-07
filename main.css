@@ -1,0 +1,110 @@
+/* Main style for the website*/
+/* RESET */
+* {
+	margin: 0;
+	font-size: 100%;
+	text-decoration: none;
+}
+/* ACTUAL */
+body {
+	background: url("assets/pics/bkg.png"), rgba(0,255,0,0.5);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/* Banner properties */
+.banner-body {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	min-width: 800px;
+	height: 80px;
+	background-image: -moz-linear-gradient( 90deg, rgba(24,255,0,0.74902) 0%, rgba(23,245,0,0.87) 6%, rgba(16,179,0,0.93) 47%, rgb(7,103,0) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgba(24,255,0,0.74902) 0%, rgba(23,245,0,0.87) 6%, rgba(16,179,0,0.93) 47%, rgb(7,103,0) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgba(24,255,0,0.74902) 0%, rgba(23,245,0,0.87) 6%, rgba(16,179,0,0.93) 47%, rgb(7,103,0) 100%);
+    box-shadow: 0px 1px 1.5px 1.5px rgba(0, 0, 0, 0.25);
+}
+.banner-logo {
+	position: relative;
+	top: 0px;
+	width: 70px;
+	height: 70px;
+	float: left;
+	padding: 4px;
+	border-right: 2px solid rgb(0,0,0);
+	border-bottom: 2px solid rgb(0,0,0);
+}
+.banner-text {`
+	position: relative;
+	top: 0px;
+	left: 80px;
+	right: 0px;
+	width: calc(100% - 80px);
+	float: left;
+	padding-top: 14.5px;
+	padding-bottom: 14.5px;
+	border-bottom: 2px solid rgb(0,0,0);
+}
+.banner-text p {
+	text-align: center;
+	font-size: 32pt;
+	color: rgb(255,255,255);
+	text-shadow: 3px 3px 1px rgba(0,0,0,1);
+	-webkit-animation: bannertext 2s 1;
+    animation: bannertext 2s 1;
+}
+@-webkit-keyframes bannertext {
+	from{
+		filter: blur(3px);
+		text-shadow: * * * rgba(0,0,0,0);
+	}
+	to {
+		filter: blur(0px);
+	}
+}
+@keyframes bannertext {
+	from{
+		filter: blur(3px);
+		text-shadow: 10px 10px 0px rgba(0,0,0,0);
+	}
+	to {
+		filter: blur(0px);
+	}
+}
+/* Main content properties */
+.main-body {
+	position: absolute;
+	top: 100px;
+	bottom: 100px;
+	left: 7.5%;
+	right: 7.5%;
+	background: rgba(255,255,255,0.9);
+	border: 2px solid rgb(0,0,0);
+}
+.menu-bar {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 60px;
+	background-image: -moz-linear-gradient( 90deg, rgba(2,94,0,0.98039) 0%, rgb(2,13,0) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgba(2,94,0,0.98039) 0%, rgb(2,13,0) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgba(2,94,0,0.98039) 0%, rgb(2,13,0) 100%);
+	border-bottom: 2px solid rgb(0,0,0);
+}
+/* Bottom content properties */
+.bottom-body {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	min-width: 800px;
+	height: 78px;
+	background-image: -moz-linear-gradient( 90deg, rgba(24,255,0,0.74902) 0%, rgba(23,245,0,0.87) 6%, rgba(16,179,0,0.93) 47%, rgb(7,103,0) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgba(24,255,0,0.74902) 0%, rgba(23,245,0,0.87) 6%, rgba(16,179,0,0.93) 47%, rgb(7,103,0) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgba(24,255,0,0.74902) 0%, rgba(23,245,0,0.87) 6%, rgba(16,179,0,0.93) 47%, rgb(7,103,0) 100%);
+	border-top: 2px solid rgb(0,0,0);
+}
+
+
