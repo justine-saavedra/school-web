@@ -1,0 +1,85 @@
+/* Media adjust */
+/* Specified to window size */
+/*Med version (width 0 - 929)*/
+@media only all and (min-width: 0px) {
+	/* Banner properties */
+	.banner {
+		min-width: 700px;
+		height: 150px;
+	}
+	.banner-logo {
+		}
+	.banner-text {`
+		position: relative;
+		top: 0px;
+		left: 151px;
+		float:left;
+		width: calc(100% - 151px);
+		height: 98px;
+		padding-top: 26px;
+		padding-bottom: 26px;
+	}
+	.banner-text div {
+		width: 400px;
+		font-size: 32pt;
+	}
+	.main {
+		min-width: 700px;
+	}
+	}
+/*Medium version (width 930 - 1118)*/
+@media only all and (min-width: 930px) {
+	/* Banner properties */
+	.banner {
+		min-width: 929px;
+		height: 150px;
+	}
+	.banner-logo {
+
+	}
+	.banner-text {`
+		position: relative;
+		top: 0px;
+		left: 151px;
+		float:left;
+		width: calc(100% - 151px);
+		height: 49px;
+		padding-top: 50.5px;
+		padding-bottom: 50.5px;
+	}
+	.banner-text div {
+		width: 757px;
+		font-size: 34pt;
+	}
+	.main {
+		min-width: 929px;
+	}	
+}
+/*Desktop version (width 1119 - above)*/
+@media only all and (min-width: 1119px) {
+	/* Banner properties */
+	.banner {
+		min-width: 1118px;
+		height: 150px;
+	}
+	.banner-logo {
+
+	}
+	.banner-text {`
+		position: relative;
+		top: 0px;
+		left: 151px;
+		float:left;
+		width: calc(100% - 151px);
+		height: 64px;
+		padding-top: 43px;
+		padding-bottom: 43px;
+	}
+	.banner-text div {
+		width: 888px;
+		font-size: 40pt;
+	}
+	/* Main content properties */
+	.main {
+		min-width: 1118px;
+	}

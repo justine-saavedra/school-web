@@ -1,50 +1,26 @@
 /* Glass Blur Effect */
 .glassblurBanner {
-	display: block;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	height: 150px;
-	background: url("../pics/bkg.png") fixed;
-	background-size: cover;
-	background-position-x: center;
-	background-position-y: center;
-	background-size: cover;
-	box-shadow: 3px 3px 1px 0px rgba(0, 0, 0, 0.75);
-	filter: blur(5px);
-	z-index: 0;
+	
 }
 .glassblurMain {
-	display: block;
 	position: absolute;
 	top: 150px;
-	bottom: 50px;
-	width: auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	margin-left: 10%;
-	margin-right: 10%;
+	bottom: 10px;
+	width: 80%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10%;
+	padding-right: 10%;
 	background: url("../pics/bkg.png") fixed;
 	background-size: cover;
 	background-position-x: center;
 	background-position-y: center;
-	background-size: cover;
+	background-origin: padding-box;
+	background-clip: content-box;
 	box-shadow: 3px 3px 1px 0px rgba(0, 0, 0, 0.75);
 	filter: blur(5px);
 	z-index: 0;
 }
 .glassblurBottom {
-	display: block;
-	position: absolute;
-	bottom: 0px;
-	width: 100%;
-	height: 50px;
-	background: url("../pics/bkg.png") fixed;
-	background-size: cover;
-	background-position-x: center;
-	background-position-y: center;
-	background-size: cover;
-	filter: blur(5px);
-	z-index: 0;
+	
 }
