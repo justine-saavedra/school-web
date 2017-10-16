@@ -170,7 +170,7 @@
 .menu-link-bars .dropdownSubMenu a {
 	position: relative;
 	float: left;
-	font-size: 14pt;
+	font-size: 12pt;
 	color: rgb(255,255,255);
 }
 .menu-link-bars .dropdownSubMenu a:hover {
@@ -191,4 +191,7 @@
 	width: 100%;
 	height: 50px;
 	background: rgba(0,0,0,0.85);
+}
+.bottom div {
+	padding: 5px;
 }
