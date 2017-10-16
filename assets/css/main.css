@@ -41,6 +41,22 @@ p#hymnInfo2 {
 	font-size: 16pt;
 	text-align: center;
 }
+p#loc {
+	margin: 12px;
+	font-size: 24pt;
+	text-align: center;
+}
+div#schoolLocMap {
+	width: 90%;
+	Height: 90%;
+	margin-left: 5%;
+}
+div#history p{
+	width: 85%;
+	text-indent: 4em;
+	font-size: 16pt;
+	text-align: justify;
+}
 div#r-a-r {
 	width: 90%;
 	margin: 5px;
@@ -55,22 +71,38 @@ div#r-a-r p{
 	font-size: 18pt;
 	text-align: justify;
 }
+p#sancnote {
+	font-style: italic;
+}
 ul {
-	
+	margin-left: 5%;
 	font-size: 18pt;
 }
 li {
 	padding: 5px;
 }
-.history * {
-	
+form {
+	width: 80%;
+	margin: 10%;
 }
-.history p {
-	
-	font-size: 16pt;
-	text-indent: 2em;
-	text-align: justify;
+legend {
+	font-size: 24pt;
 }
+div#persName {
+	float: left;
+	width: 70%;
+}
+div#persName input#age {
+	width: 70px;
+}
+div#persName input {
+	width: 100%;
+}
+div#persSex {
+	float: left;
+	width: 25%;
+}
+
 
 
 

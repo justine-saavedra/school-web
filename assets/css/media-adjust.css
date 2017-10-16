@@ -28,10 +28,10 @@
 	}
 	}
 /*Medium version (width 930 - 1118)*/
-@media only all and (min-width: 930px) {
+@media only all and (min-width: 900px) {
 	/* Banner properties */
 	.banner {
-		min-width: 929px;
+		min-width: 899px;
 		height: 150px;
 	}
 	.banner-logo {
@@ -52,7 +52,7 @@
 		font-size: 34pt;
 	}
 	.main {
-		min-width: 929px;
+		min-width: 899px;
 	}	
 }
 /*Desktop version (width 1119 - above)*/
