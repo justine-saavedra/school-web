@@ -8,14 +8,14 @@
 		<link id="ast" rel="stylesheet" href="assets/css/glassblur.cs">
 		<link id="icn" rel="icon" href="assets/pics/pnhs-logo-green(whitebkg).png">
 		<style>
-			#home {
+			#apply {
 				background: rgb(0,0,0);
 			}
-			#home:hover {
+			#apply:hover {
 				-webkit-animation: menuhover 0s 0;
 				animation: menuhover 0s 1;
 			}
-			#home:active {
+			#apply:active {
 				background: rgb(0,255,0);
 				-webkit-animation: menuActive 0.2s 10;
 				animation: menuActive 0.2s 1;
@@ -75,10 +75,7 @@
 						</div>
 					</div>
 					<div class="menu-link-bars">
-						<a id="" href="">...</a>
-						<div class="dropdownSubMenu">
-							<a id="" href="">...</a>
-						</div>
+						<a id="apply" href="apply.html">Apply</a>
 					</div>
 				</div>
 				<br>
@@ -89,7 +86,7 @@
 				<form>
 					<fieldset>
 						<legend>Personal Info</legend>
-						<div id="persName">
+						<div id="persInfo">
 							First Name: <input id="fName" type="text" name="first-name">
 							<br>
 							Middle Name: <input id="mName" type="text" name="middle-name">
@@ -97,20 +94,54 @@
 							Last Name: <input id="lName" type="text" name="last-name">
 							<br>
 							<br>
-							Age: <input id="age" type="number" name="applicant-age">
-						</div>
-						<div id="persSex">
-							Male 
-							<input id="fName" type="radio" name="sex" value="sexM">
-							<br>
-							Female
-							<input id="mName" type="radio" name="sex" value="sexF">
+							Age: <input id="age" type="number" name="applicant-age" min="0">
+							Sex: M
+							<input id="sex" type="radio" name="sex" value="male">
+							F 
+							<input id="sex" type="radio" name="sex" value="female">
 						</div>
 					</fieldset>
 					<fieldset>
-						<legend></legend>
+						<legend>Academics</legend>
+						<div>
+							Grade: 
+							<br>
+							<input id="grade" type="number" name="chooseGrade" min="6" max="12" onchange="checkGrade()">
+							<br>
+							Strand: 
+							<br>
+							<select id="strand" type="text" name="chooseStrand" onchange="checkStrand()" disabled>
+								<option value="STEM">STEM</option>
+								<option value="ABM">ABM</option>
+								<option value="GAS">GAS</option>
+								<option value="HUMMS">HUMMS</option>
+								<option value="TVL">TVL</option>
+							</select>
+							<br>
+							TVL Specialty: 
+							<br>
+							<select id="TVLextra" type="text" name="chooseTVLsp" disabled>
+								<option value=1>Beauty Care</option>
+								<option value=2>Bread and Pastry Production</option>
+								<option value=3>Cookery</option>
+								<option value=4>Dressmaking</option>
+								<option value=5>Hairdressing</option>
+								<option value=6>Information and Communication Technology (ICT)</option>
+								<option value=7>Automotive Servicing</option>
+								<option value=8>Electronics Products Assembly and Servicing</option>
+								<option value=9>Electrical Installation and Maintenance</option>
+							</select>
+							<br>
+						</div>
 					</fieldset>
+					<br>
+					<div align="middle">
+						<input type=submit>
+					</div>
 				</form>
+				<br>
+				<hr>
+				<br>
 			</div>
 		</div>
 		<div class="glassblurBottom"></div>
@@ -120,5 +151,6 @@
 				<p></p>
 			</div>
 		</div>
+		<script src="assets/js/checkForm.js"></script>
 	</body>
 </html>

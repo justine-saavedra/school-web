@@ -28,10 +28,9 @@
 	}
 	}
 /*Medium version (width 930 - 1118)*/
-@media only all and (min-width: 900px) {
+@media only all and (min-width: 930px) {
 	/* Banner properties */
 	.banner {
-		min-width: 899px;
 		height: 150px;
 	}
 	.banner-logo {
@@ -52,14 +51,13 @@
 		font-size: 34pt;
 	}
 	.main {
-		min-width: 899px;
+
 	}	
 }
 /*Desktop version (width 1119 - above)*/
-@media only all and (min-width: 1119px) {
+@media only all and (min-width: 1060px) {
 	/* Banner properties */
 	.banner {
-		min-width: 1118px;
 		height: 150px;
 	}
 	.banner-logo {
@@ -81,5 +79,5 @@
 	}
 	/* Main content properties */
 	.main {
-		min-width: 1118px;
+		
 	}

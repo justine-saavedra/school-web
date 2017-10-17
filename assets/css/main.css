@@ -88,21 +88,24 @@ form {
 legend {
 	font-size: 24pt;
 }
-div#persName {
-	float: left;
-	width: 70%;
+fieldset div {
+	padding: 10px;
+	font-size: 20pt;
 }
-div#persName input#age {
+div#persInfo {
+	float: left;
+	width: calc(100% - 20px);
+}
+div#persInfo input#age {
 	width: 70px;
 }
-div#persName input {
+div#persInfo input#sex {
+	width: 20px;
+	height: 15px
+}
+div#persInfo input {
 	width: 100%;
 }
-div#persSex {
-	float: left;
-	width: 25%;
-}
-
 
 
 
